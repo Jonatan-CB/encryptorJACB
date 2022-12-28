@@ -1,0 +1,252 @@
+body{
+    background: url(../images/code.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+} 
+.cabecera{
+    color: #727374;
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.cabecera .logo {
+    padding: 20px 0 0 20px;
+    width: 200px;
+}
+.titulo{
+    font-size: 30px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.right, .left{
+    margin-bottom: 2em;
+}
+.left{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left .areawork{
+    font-family: Century Gothic;
+    font-size: 1.2rem;
+    width: 70%;
+    padding: 20px;
+    margin-top: 1.5rem;
+    resize: none;
+    outline: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    box-shadow: 0 8px 10px 0 rgba(208, 208, 209, 0.08);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    cursor: default;
+}
+.areawork::placeholder{
+    color: #fffffe;
+}
+.areawork::-webkit-scrollbar{
+    appearance: none;
+    width: 10px;
+}
+.areawork::-webkit-scrollbar-thumb {
+    background-color: #424141;
+    border-radius: 10px;
+}
+.areawork::-webkit-scrollbar-thumb:active {
+    background-color: #353434;
+}
+.areawork::-webkit-scrollbar-thumb:hover{
+    background-color: #363535;
+}
+.areawork::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+.left .btn{
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.left .btn button {
+    font-family: Century Gothic;
+    font-size: 14px;
+    margin: 10px;
+    padding: 13px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.encrypt {
+    background: transparent;
+    border: solid 2px white;
+    border-color: white;
+    color: white;
+}
+.encrypt:hover {
+    background: #ff8906;
+    border-color: transparent;
+    transform: scale(1.05);
+    color: white;
+}
+.decrypt {
+    background: transparent;
+    border: solid 2px #ff8906;
+    color: #ff8906;
+}
+.decrypt:hover {
+    background: white;
+    border-color: transparent;
+    transform: scale(1.05);
+    color: #ff8906;
+}
+.left .alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+.left .alert img {
+  width: 20px;
+  height: 20px;
+  padding: 0 10px;
+}
+.right .areadecript{
+    font-family: Century Gothic;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    color: white;
+    background-image: url(../images/toy.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.26);
+    box-shadow: 0 8px 10px 0 rgba(208, 208, 209, 0.08);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    cursor: default;
+}
+#message{
+    font-family: Century Gothic;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.areadecript::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 10px;
+}
+.areadecript::-webkit-scrollbar-thumb {
+    background-color: #424141;
+    border-radius: 10px;
+}
+.areadecript::-webkit-scrollbar-thumb:hover{
+    background-color: #363535;
+}
+.areadecript::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+.btncopy{
+    font-family: Century Gothic;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 13px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+}
+.btncopy:disabled{
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+}
+.btncopy:hover{
+    transform: scale(1.05);
+}
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    font-family: Century Gothic;
+    font-size: 15px;
+    padding: 10px;
+}
+footer ul li a{
+    padding: 5px;
+}
+footer ul li img{
+    width: 40px;
+    object-fit: contain;
+    filter: contrast(1%);
+}
+.contenedor{
+    width: 100%;
+}
+#toastAlert{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.toastAlert{
+    font-family: Century Gothic;
+    font-weight: bolder;
+    animation: toast 4s ease !important;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+@keyframes toast{
+    0% {
+        bottom: 50px;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: 0;
+        opacity: 1;
+        left: 0;
+    }
+    100% {
+        left: -200px;
+    }
+}

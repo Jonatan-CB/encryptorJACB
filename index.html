@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encryptor</title>
+        <link rel="icon" href="images/code.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabecera">
+                <img class="logo" src="images/logo.png">
+            </div>
+        </header>
+        <main>
+            <div class="left">
+                <textarea class="areawork" id="areaEncrypt" cols="30" rows="18" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="alert" id="alerta">
+                    <img src="images/alert.svg" alt="alert" />
+                    <p>Solo se procesan letras minusculas y sin acentos</p>
+                </div>
+                <div class="btn">
+                    <button id="btnencrypt"  class="encrypt" type="button">Encriptar</button>
+                    <button id="btndecrypt" class="decrypt" type="button">Desencriptar</button>
+                </div>
+            </div>
+            <div class="right">
+                <textarea class="areadecript" id="areaDecrypt" cols="30" disabled rows="18"></textarea>
+                <p id="message">Ningún mensaje fue encontrado</p>
+                <button id="copyText" class="btncopy" disabled>Copiar</button>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <p>Elaborado por Jonatan Camán  &#169;</p>
+                    <a href="https://github.com/Jonatan-CB" target="_blank"><img src="images/github.svg" alt="github"></a>
+                </li>
+            </ul>
+        </footer>
+        <div class="contenedor">
+            <div id="toastAlert"></div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
