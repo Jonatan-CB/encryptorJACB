@@ -150,11 +150,13 @@ function encriptar()
         else
         {
             animacion(validarCaracteres(),"#f44336");
+            txtEncrypt.focus();
         }
     }
     else
     {
         animacion("Ingresa un texto","#f44336");
+        txtEncrypt.focus();
     }
 }
 btnen.onclick = encriptar;
@@ -211,10 +213,15 @@ function desencriptar()
                 fondo(false);
             }
         }
+        else
+        {
+            txtEncrypt.focus();
+        }
     }
     else
     {
         animacion("Ingresa un texto","#f44336");
+        txtEncrypt.focus();
     }
 }
 btnde.onclick = desencriptar;

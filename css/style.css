@@ -153,7 +153,7 @@ main{
     border-radius: 10px;
     cursor: default;
 }
-.right #message{
+#message{
     font-family: Century Gothic;
     font-size: 18px;
     font-weight: bold;
