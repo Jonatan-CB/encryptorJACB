@@ -153,7 +153,7 @@ main{
     border-radius: 10px;
     cursor: default;
 }
-#message{
+.right #message{
     font-family: Century Gothic;
     font-size: 18px;
     font-weight: bold;
@@ -235,6 +235,7 @@ footer ul li img{
     border-radius: 10px;
     margin: 10px;
 }
+
 @keyframes toast{
     0% {
         bottom: 50px;
@@ -248,5 +249,53 @@ footer ul li img{
     }
     100% {
         left: -200px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    main{
+        flex-direction: column;
+    }
+    .left, .right{
+        width: 100%;
+    }
+    .left .btn{
+        width: 100%;
+
+        flex-wrap: wrap;
+    }
+    .left .areawork {
+      width: 80%;
+    }
+    .right .areadecript{
+        width: 80%;
+    }
+    #message{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+      flex-direction: column;
+    }
+    .left, .right{
+      width: 100%;
+    }
+    .left .btn{
+      width: 100%;
+  
+      flex-wrap: wrap;
+    }
+    .left .areawork {
+      height: 200px;
+      width: 80%;
+    }
+    .right .areadecript{
+        height: 200px;
+        width: 80%;
+    }
+    #message{
+        font-size: 15px;
     }
 }
