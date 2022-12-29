@@ -29,7 +29,6 @@ function fondo(val)
     {
         txtDecrypt.style.background = "rgba(0, 0, 0, 0.26)";
         document.querySelector("#message").style.visibility = "hidden";
-        btncopy.disabled = false;
     }
     else
     {
@@ -150,6 +149,8 @@ function encriptar()
         else
         {
             animacion(validarCaracteres(),"#f44336");
+            txtDecrypt.value = "";
+            fondo(false);
             txtEncrypt.focus();
         }
     }
@@ -210,11 +211,15 @@ function desencriptar()
             }
             else
             {
+                txtDecrypt.value = "";
                 fondo(false);
+                txtEncrypt.focus();
             }
         }
         else
         {
+            txtDecrypt.value = "";
+            fondo(false);
             txtEncrypt.focus();
         }
     }
