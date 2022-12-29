@@ -22,8 +22,9 @@ Vamos a trabajar en una aplicación que encripta textos. [Ver demo](https://jona
 ### Mensaje secreto!
 Desencripta nuestro mensaje secreto!
 - fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!\
-![image](https://user-images.githubusercontent.com/40507521/209872297-09b33b7b-0ed6-43cd-b168-6ee7222d54b4.png)
-![image](https://user-images.githubusercontent.com/40507521/209871513-01738d6f-608a-49f6-86ae-5092948a68d1.png)
+<p>
+<img src="https://user-images.githubusercontent.com/40507521/209872297-09b33b7b-0ed6-43cd-b168-6ee7222d54b4.png" alt="html5" width="300px height= 258px"/> &nbsp; <img src="https://user-images.githubusercontent.com/40507521/209871513-01738d6f-608a-49f6-86ae-5092948a68d1.png" alt="html5" width="300px" height= "263px"/>
+</p>
 #
 ### Lenguajes usados:
 <a href="https://www.w3.org/html/" target="_blank"><img src="https://www.svgrepo.com/show/373669/html.svg" alt="html5" width="40" height="40"/></a>
