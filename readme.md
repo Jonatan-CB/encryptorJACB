@@ -25,11 +25,13 @@ Desencripta nuestro mensaje secreto!
 <p>
 <img src="https://user-images.githubusercontent.com/40507521/209872297-09b33b7b-0ed6-43cd-b168-6ee7222d54b4.png" alt="html5" width="300px height= 258px"/> &nbsp; <img src="https://user-images.githubusercontent.com/40507521/209871513-01738d6f-608a-49f6-86ae-5092948a68d1.png" alt="html5" width="300px" height= "263px"/>
 </p>
+
 #
 ### Lenguajes usados:
 <a href="https://www.w3.org/html/" target="_blank"><img src="https://www.svgrepo.com/show/373669/html.svg" alt="html5" width="40" height="40"/></a>
 <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://www.svgrepo.com/show/373535/css.svg" alt="css3" width="40" height="40"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://www.svgrepo.com/show/349419/javascript.svg" alt="javascript" width="40" height="40"/></a>
+
 ### Autor:
 Jonatán Camán\
 <a href="https://www.instagram.com/jonatancaman/" target="_blank"><img src="https://www.svgrepo.com/show/303154/instagram-2016-logo.svg" alt="instagram" width="40" height="40"/></a>
